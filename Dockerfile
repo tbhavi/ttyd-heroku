@@ -9,7 +9,7 @@ ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /sbin/tini
 RUN chmod +x /sbin/tini
 
 RUN apt-get update; apt-get install -y --no-install-recommends \
-    python3 \
+        python3 \
 	python3-setuptools \
 	python3-pip \
 	zip \
