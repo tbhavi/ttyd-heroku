@@ -38,4 +38,4 @@ ENV LOGIN_PASSWORD admin
 
 ENTRYPOINT ["/sbin/tini", "--"]
 #CMD ["ttyd", "bash"]
-CMD ttyd --port $PORT --credential $LOGIN_USER:$LOGIN_PASSWORD bash
+CMD while true; do ttyd --port $PORT --credential $LOGIN_USER:$LOGIN_PASSWORD bash; sleep 2; done
