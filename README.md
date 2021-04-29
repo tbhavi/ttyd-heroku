@@ -67,3 +67,4 @@ Read the example usage on the [wiki](https://github.com/tsl0922/ttyd/wiki/Exampl
 https://github.com/tsl0922/ttyd
 
 Thanks to *tsl0922*.
+ 
